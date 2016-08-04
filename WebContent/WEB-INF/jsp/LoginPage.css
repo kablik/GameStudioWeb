@@ -1,0 +1,62 @@
+* {
+    font-family: "Courier New"
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    padding-top: 25vh;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+#wrong {
+	color: red;
+    text-align: center;
+}
+
+.login{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.loginName{
+    width: 25rem;
+}
+
+
+
+button:disabled, button:disabled:hover{
+	color: #808080;
+	background-color: #404040;
+}
+
+.buttons{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1em;
+    font-size: large;
+    font-weight: bold;
+}
+
+button{
+    background-color: #404040;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #CCCCCC;
+    border: none;
+    color: black;
+}

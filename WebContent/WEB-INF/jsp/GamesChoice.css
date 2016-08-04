@@ -1,0 +1,68 @@
+* {
+    font-family: "Courier New"
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    padding-top: 0;
+}
+
+h2, h3{
+    color: white;
+}
+
+.gameChoice {
+    color: white;
+    padding-left: 1rem;
+}
+
+.left{
+    float: left;
+    width: 20%;
+    min-height: 10rem;
+    padding-left: 2rem;
+    min-width: 15rem;
+}
+
+.left2{
+    float: left;
+    width: 20%;
+    min-height: 6rem;
+	margin-top: 4rem;
+	padding-left: 2rem;
+	min-width: 15rem;
+}
+
+.right{
+    float: left;
+    width: 70%;
+    min-height: 10rem;
+    min-width: 15rem;
+}
+
+.clear{
+    clear: both;
+    border-size:1px;
+    border-style:solid;
+    border-color:white;
+}
+
+a.btn:link, a.btn:visited {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem ;
+    background-color: #404040;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+a.btn:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem 0.5rem 1rem ;
+    background-color: #CCCCCC;
+}

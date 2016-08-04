@@ -1,0 +1,60 @@
+.leftPart{
+	border-top:thin;
+	border-color: white;
+	border-top-style: solid;
+    float: left;
+    width: 50%;
+    min-width: 30rem;
+}
+
+.rightPart{
+	border-top:thin;
+	border-color: white;
+	border-top-style: solid;
+    float: left;
+    width: 50%;
+    min-width: 30rem;
+}
+
+#inner{
+    display: block;
+    margin: auto;
+}
+
+.buttonsForm{
+    padding-top: 1em;
+    font-size: large;
+    font-weight: bold;
+}
+
+button{
+    background-color: #404040;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #CCCCCC;
+    border: none;
+    color: black;
+}
+
+.gtnH, .stones, .minesweeper {
+    text-align: center;
+}
+
+.stones table, .minesweeper table{
+    margin: 0 auto;
+}
+
+.stones table a, .minesweeper table a{
+    text-decoration: none;
+    background-color: transparent;
+    padding:0;
+}
+
+.logout {
+	text-align: right;
+	padding-right: 5rem;
+}
+

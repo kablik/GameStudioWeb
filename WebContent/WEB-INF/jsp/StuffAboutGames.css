@@ -1,0 +1,19 @@
+p{
+    color: white;
+    font-weight: bold;
+}
+
+.tableSAG {
+    color: white;
+    min-width: 20rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.SAG{
+    margin-bottom: 5rem;
+}
+
+.rightSideBar{
+    margin-left: 1rem;
+}
